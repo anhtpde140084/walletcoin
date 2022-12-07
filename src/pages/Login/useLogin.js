@@ -3,7 +3,7 @@ import Axios from "axios";
 export const login = async (data, setError) => {
   try {
     const res = await Axios.post(
-      `${process.env.REACT_APP_BASE_URL}/api/v1/auth/login`,
+      `/api/v1/auth/login`,
       data
     );
     if (res && res.data.success) {

@@ -7,4 +7,8 @@ module.exports = app => {
       changeOrigin: true
     })
   )
+  app.use(createProxyMiddleware("/api/**", { // https://github.com/chimurai/http-proxy-middleware
+    target: "http://localhost:5000",
+    secure: false
+  }));
 }
