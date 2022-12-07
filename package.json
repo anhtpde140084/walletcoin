@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "proxy": "https://payoaut.com",
-  "homepage": "https://walletcoin.vercel.app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
