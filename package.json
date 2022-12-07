@@ -54,7 +54,6 @@
     "redux-thunk": "^2.4.2",
     "uuid": "^9.0.0"
   },
-  "proxy": "http://localhost:5000",
   "eslintConfig": {
     "extends": [
       "react-app",
